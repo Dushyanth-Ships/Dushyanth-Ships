@@ -17,7 +17,7 @@ SessionBrief stores session notes per client and generates a one-page brief befo
 **What's in the repo:**
 - Field research across 18+ practitioner sources (Reddit, clinical forums, journalism)
 - PRD v1 and v2 with three independent professional reviews (engineer, Director of Product, senior PM)
-- Working HTML/CSS/JS prototype — open `prototype/index.html` in a browser, no build step
+- **[Live demo](https://notes-app-54dfg.netlify.app/)** — runs in the browser, no install needed
 
 ---
 
