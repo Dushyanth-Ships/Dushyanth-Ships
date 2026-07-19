@@ -31,6 +31,19 @@ This PRD defines an AI recommendation engine that turns self-purchasers into gif
 - 6 user stories covering gift feed, occasion notifications, executive dashboard, weekly stakeholder email, purchase intent capture, and social gifting attribution
 - 60-day success metrics with targets and rationale
 
+### [Sentinel](https://github.com/Dushyanth-Ships/sentinel-ai) — Privacy-first in-car AI assistant
+
+In-car AI assistants need location, contacts, calendar, and driving patterns to be useful — and none of that should leave the vehicle to be trustworthy. Most products choose usefulness and hope users don't read the privacy policy. Sentinel resolves the tension by making privacy the primary architectural constraint.
+
+Built on a hybrid on-device + Anthropic Claude API architecture: sensitive data stays local or is stripped of PII before any cloud call. The cloud LLM never sees identifying information — it receives an anonymized, RAG-grounded query and returns a response capped at 150 tokens for driver safety.
+
+**What's in the repo:**
+- 4-layer hybrid architecture with explicit data classification (on-device vs. cloud) for every data type
+- Cloud API vs. self-hosted LLM trade-off analysis with privacy mitigation design
+- RAG retrieval + output filtering pipeline targeting 95%+ factual accuracy
+- Safety constraints: 150-token limit, voice-only, attention monitoring, offline fallback
+- Success metrics across privacy, quality, and safety dimensions
+
 ---
 
 ## How I Work
