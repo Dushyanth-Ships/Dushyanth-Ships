@@ -6,7 +6,7 @@ I approach product from evidence first — problem interviews, behavioral resear
 
 ---
 
-## Featured Project
+## Featured Projects
 
 ### [SessionBrief](https://github.com/Dushyanth-Ships/sessionbrief) — Pre-session briefing tool for therapists
 
@@ -26,6 +26,7 @@ A fast-fashion retailer hit a growth ceiling after 10x expansion in three years 
 This PRD defines an AI recommendation engine that turns self-purchasers into gifters, targeting 150K new gifters and $5M+ in gifting GMV within the first 60 days of the holiday season.
 
 **What's in the repo:**
+- [PRD (PDF)](https://github.com/Dushyanth-Ships/gift-recommender/raw/master/Dushyanth_Gift_Recommendation_PRD.pdf) — original document
 - Hybrid recommendation engine design: collaborative + content-based filtering with explicit exogenous/autoregressive data classification
 - Time-series demand forecasting model for inventory planning
 - 6 user stories covering gift feed, occasion notifications, executive dashboard, weekly stakeholder email, purchase intent capture, and social gifting attribution
@@ -38,6 +39,7 @@ In-car AI assistants need location, contacts, calendar, and driving patterns to 
 Built on a hybrid on-device + Anthropic Claude API architecture: sensitive data stays local or is stripped of PII before any cloud call. The cloud LLM never sees identifying information — it receives an anonymized, RAG-grounded query and returns a response capped at 150 tokens for driver safety.
 
 **What's in the repo:**
+- [Deck (PDF)](https://github.com/Dushyanth-Ships/sentinel-ai/raw/master/Dushyanth_Sentinel_AI_Car_Assistant_Deck.pdf) — original document
 - 4-layer hybrid architecture with explicit data classification (on-device vs. cloud) for every data type
 - Cloud API vs. self-hosted LLM trade-off analysis with privacy mitigation design
 - RAG retrieval + output filtering pipeline targeting 95%+ factual accuracy
